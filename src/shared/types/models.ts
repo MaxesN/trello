@@ -10,7 +10,7 @@ export interface Task {
   name: string
   description: string
   status: 'todo' | 'in_progress' | 'done'
-  priority: 'high' | 'medium' | 'low'
-  performers: Person[]
-  responsiblePerson: Person
+  priority?: 'high' | 'medium' | 'low'
+  performers?: Person[]
+  responsiblePerson?: Person
 }
