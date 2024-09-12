@@ -1,4 +1,4 @@
-export interface Person {
+export interface User {
   id: string
   firstName: string
   lastName: string
@@ -11,6 +11,6 @@ export interface Task {
   description: string
   status: 'todo' | 'in_progress' | 'done'
   priority?: 'high' | 'medium' | 'low'
-  performers?: Person[]
-  responsiblePerson?: Person
+  performers?: User[]
+  responsiblePerson?: User
 }
