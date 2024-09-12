@@ -1,5 +1,7 @@
 <script setup lang="ts">
-import type { Props } from './types'
+import type { Task } from '@/shared/types/models'
+
+export type Props = Pick<Task, 'name' | 'performers'>
 
 const { name, performers } = defineProps<Props>()
 </script>
