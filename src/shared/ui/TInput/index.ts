@@ -1,1 +1,1 @@
-export { default as TInput } from './TInput.vue'
+export { default as TEdit } from './TEdit.vue'
